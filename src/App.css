@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'TECHTONC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TECHTONS'), url('TECHTONC.TTF') format('woff');
+}
+
+h1 {
+    font-family: 'TECHTONC';
+    font-weight: 200;
+    color: #00BCD4;
+}

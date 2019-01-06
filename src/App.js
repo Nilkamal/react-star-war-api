@@ -3,6 +3,7 @@ import 'tachyons';
 import SearchInput from './SearchInput';
 import Scroll from './Scroll';
 import PeopleList from './PeopleList';
+import './App.css';
 
 class App extends Component {
     
@@ -40,7 +41,7 @@ class App extends Component {
         } else {
         return (
              <div className='tc'>
-                 <h1>Star War People API</h1>
+                <h1>Star War People API</h1>
                 <SearchInput onSearchChange={this.onSearchChange} />
                 <Scroll>
                     <PeopleList persons={filteredPeople}/>
